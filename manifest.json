@@ -7,9 +7,13 @@
         "storage",
         "bookmarks"
     ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "action": {
-        "default_title": "My Bookmarks",
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
+        "default_icon": "icon.png"
+    },
+    "storage": {
+        "managed_schema": "schema.json"
     }
 }
